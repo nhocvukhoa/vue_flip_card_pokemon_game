@@ -1,5 +1,16 @@
 <template>
-  <h1>Interact Component here...</h1>
+  <div class="screen">
+    <h1>Interact Component here...</h1>
+    <card-flip></card-flip>
+  </div>
 </template>
 
-<script></script>
+<script>
+import CardFlip from "./CardFlip.vue";
+
+export default {
+  components: {
+    CardFlip,
+  },
+};
+</script>
